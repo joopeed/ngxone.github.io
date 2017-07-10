@@ -209,7 +209,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 20px;
   padding-top: 10px;
   margin-right: -80px;
-  color: rgb(162, 205, 91);
+  color: rgb(85, 212, 0);
   font-weight: bold;
   font-size:28px;
 }
@@ -426,15 +426,15 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 2;
   opacity: .9;
   -webkit-backface-visibility: hidden;
-  background-color: #A4D792;
+  background-color: #A4D792;  
   /* IE9, iOS 3.2+ */
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMyMTgyNWMiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iI2E0ZDc5MiIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
-  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #21825c), color-stop(1, #a4d792));
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #219e0a), color-stop(1, #3be200));
   /* Android 2.3 */
-  background-image: -webkit-linear-gradient(top left, #21825c 0%, #a4d792 100%);
+  background-image: -webkit-linear-gradient(top left, #219e0a 0%, #3be200 100%);
   /* IE10+ */
-  background-image: linear-gradient(to bottom right, #21825c 0%, #a4d792 100%);
-  background-image: -ms-linear-gradient(top left, #21825c 0%, #a4d792 100%);
+  background-image: linear-gradient(to bottom right, #219e0a 0%, #3be200 100%);
+  background-image: -ms-linear-gradient(top left, #219e0a 0%, #3be200 100%);
 }
 #fh5co-home, #fh5co-home .text-wrap {
   height: 900px;
@@ -676,7 +676,14 @@ h1, h2, h3, h4, h5, h6 {
   background-image: -webkit-linear-gradient(top left, #21825c 0%, #a4d792 100%);
   /* IE10+ */
   background-image: linear-gradient(to bottom right, #21825c 0%, #a4d792 100%);
-  background-image: -ms-linear-gradient(top left, #21825c 0%, #a4d792 100%);
+  background-image: url(../images/flowerGarden.jpg); 
+  background-size: 120% 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background 1.5s linear;
+  -moz-transition: background 1.5s linear;
+  -o-transition: background 1.5s linear;
+  -ms-transition: background 1.5s linear;
+  transition: background 1.5s linear;
   overflow: hidden;
   position: relative;
   color: rgba(255, 255, 255, 0.7);
@@ -703,17 +710,23 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-services:after {
   bottom: 0;
   margin-bottom: -35px;
+  opacity: 0.5;
 }
 #fh5co-services .fh5co-service {
-  padding-right: 30px;
+  padding: 30px;
+  background: rgba(100, 100, 100, .5);
+  opacity: 0.5;
 }
 #fh5co-services h3 {
+  margin-left: -30px;
+  text-align: right;
+  margin-top: 5px;
   font-size: 24px;
   color: #fff;
 }
 #fh5co-services .icon {
   font-size: 70px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
