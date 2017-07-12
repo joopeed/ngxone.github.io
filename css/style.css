@@ -228,8 +228,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-header .logo-grande { 
   background: url(../images/logo-grande.png); 
-  background-size: 250px;
-  height: 300px;
+  background-size: 450px;
+  height: 500px;
   background-repeat: no-repeat;
 }
 @media screen and (max-width: 768px) {
@@ -333,12 +333,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-header .navbar-brand {
   margin-top: 10px;
-  width: 300px;
-  float: left;
-  display: block;
+  width: 500px;
+  float: right;
   font-size: 30px;
   font-weight: 700;
-  padding-left: 0;
+  padding-right: 0;
   color: #fff;
 }
 
@@ -516,7 +515,7 @@ h1, h2, h3, h4, h5, h6 {
   -moz-flex-wrap: wrap;
 }
 #fh5co-intro .fh5co-block {
-  width: 33.33%;
+  width: 25%;
   float: left;
   text-align: center;
   font-size: 16px;
@@ -667,6 +666,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+#fh5co-about {
+  background-image: url(../images/grass.jpg); 
+  background-size: 120% 100%;
+  background-repeat: no-repeat;
+  color: #fff;
+
+}
 #fh5co-services {
   background-color: #A4D792;
   /* IE9, iOS 3.2+ */
@@ -851,7 +857,7 @@ h1, h2, h3, h4, h5, h6 {
   border-left: none;
   padding: 30px;
   background: #fff;
-  background: #A4D792;
+  background: #219e0a; 
   font-size: 20px;
   font-weight: 300;
   position: relative;
@@ -867,7 +873,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 40px;
   border-top: 10px solid black;
   border-top-color: #fff;
-  border-top-color: #A4D792;
+  border-top-color: #219e0a;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
 }
@@ -1019,12 +1025,16 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none !important;
 }
 
+.white {
+    color: #fff !important;
+}
 .fh5co-person {
   border: 2px solid #f2f2f2;
   padding: 80px 30px 30px 30px;
   float: left;
   width: 100%;
-  position: relative;
+  position: relative; 
+  background-color: rgba(255, 255, 255, 0.2);
 }
 @media screen and (max-width: 992px) {
   .fh5co-person {
@@ -1052,11 +1062,16 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0px;
 }
 .fh5co-person .fh5co-position {
-  color: #b3b3b3;
+  color: #fff;
   display: block;
   margin-bottom: 20px;
 }
 
+.whiteness {
+  color: #fff;
+  display: block;
+  margin-bottom: 20px;
+}
 .form-control {
   box-shadow: none;
   background: transparent;
@@ -1117,6 +1132,10 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   padding-bottom: 20px;
   line-height: 1.5;
+}
+.section-heading .whiteness {
+    color: #fff;
+    font-weight: 300;
 }
 .section-heading h2.left-border:after {
   content: "";
