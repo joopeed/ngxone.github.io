@@ -334,10 +334,10 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-header .navbar-brand {
   margin-top: 10px;
   width: 500px;
-  float: right;
+  float: left;
   font-size: 30px;
   font-weight: 700;
-  padding-right: 0;
+  padding-left: 0;
   color: #fff;
 }
 
@@ -899,11 +899,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 10px;
 }
 #fh5co-testimonials .box-testimony .author > figure img {
-  width: 60px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  border-radius: 100%;
 }
 #fh5co-testimonials .box-testimony .author p {
   float: left;
@@ -1043,15 +1044,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 .fh5co-person figure {
   position: absolute;
-  margin-top: -60px;
+  margin-top: -80px;
   top: 0;
   left: 50%;
-  margin-left: -60px;
+  margin-left: -75px;
   display: block;
   margin-bottom: 50px;
 }
 .fh5co-person figure img {
-  width: 120px;
+  width: 150px;
   border: 2px solid #f2f2f2;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
