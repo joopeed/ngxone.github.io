@@ -217,7 +217,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 20px;
   padding-top: 10px;
   margin-right: -80px;
-  color: rgb(213, 255, 213);
+  color: rgb(255, 255, 255);
   font-weight: bold;
   font-size:28px;
 }
@@ -280,7 +280,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-header #navbar li a {
   font-family: "Source Sans Pro", Arial, sans-serif;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 1.0);
   position: relative;
   font-size: 19px;
   font-weight: 300;
@@ -297,8 +297,8 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: rgba(255, 255, 255, 0.5);
   visibility: hidden;
+  background-color: rgba(255, 255, 255, 0.5);
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
   -ms-transform: scaleX(0);
@@ -311,7 +311,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out 0s;
 }
 #fh5co-header #navbar li a:hover {
-  color: #fff;
+     color: #fff;
 }
 #fh5co-header #navbar li a:hover span:before {
   visibility: visible;
@@ -324,7 +324,6 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-header #navbar li.active a {
   background: transparent;
   background: none;
-  color: #fff;
 }
 #fh5co-header #navbar li.active a span:before {
   visibility: visible;
@@ -333,7 +332,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-header .navbar-brand {
   margin-top: 10px;
-  width: 500px;
+  width: 450px;
   float: left;
   font-size: 30px;
   font-weight: 700;
@@ -425,15 +424,12 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 2;
   opacity: .9;
   -webkit-backface-visibility: hidden;
-  background-color: #A4D792;  
-  /* IE9, iOS 3.2+ */
-  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMyMTgyNWMiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iI2E0ZDc5MiIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
-  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #219e0a), color-stop(1, #3be200));
-  /* Android 2.3 */
-  background-image: -webkit-linear-gradient(top left, #219e0a 0%, #3be200 100%);
-  /* IE10+ */
-  background-image: linear-gradient(to bottom right, #219e0a 0%, #3be200 100%);
-  background-image: -ms-linear-gradient(top left, #219e0a 0%, #3be200 100%);
+ 
+
+  background-image: url(../images/grass.png); 
+  background-size: 120% 100%;
+  background-repeat: no-repeat;
+  color: #fff;
 }
 #fh5co-home, #fh5co-home .text-wrap {
   height: 900px;
@@ -445,6 +441,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 4;
 }
 #fh5co-home .text-inner {
+
   display: table-cell;
   vertical-align: middle;
   text-align: center;
@@ -462,14 +459,15 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px dashed white;
 }
 #fh5co-home .text-inner h1 {
-  font-size: 50px;
+  font-size: 55px;
   color: white;
   margin: 0 0 20px 0;
+  font-weight: bolder;
 }
 #fh5co-home .text-inner h2 {
-  font-size: 28px;
+  font-size: 25px;
   line-height: 38px;
-  font-weight: 300;
+  font-weight: 500;
   color: rgba(255, 255, 255, 0.8);
   margin: 0;
 }
@@ -667,7 +665,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-about {
-  background-image: url(../images/grass.jpg); 
+  background-image: url(../images/grass.png); 
   background-size: 120% 100%;
   background-repeat: no-repeat;
   color: #fff;
